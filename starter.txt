@@ -1,0 +1,16 @@
+Getting started with NodeJS and Create-React-App setup
+-------------------------------------------------------
+
+1. Install nodejs
+
+2. Open command prompt and install create-react-app
+>npm install -g create-react-app
+
+3. Go to your own folder and run create-react-app to create the react application for you
+>create-react-app first-react
+
+4. Go to project folder
+>cd first-react
+
+5. Start npm
+> npm start
