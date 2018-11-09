@@ -39,6 +39,9 @@ Visual Studio Code:
 > Modify the value and that will appear on the User Settings tab
 > Hit Save
 
+2. Multi fragment editing
+> Select and Hit Ctrl D
+
 
 
 How it works
@@ -47,6 +50,14 @@ How it works
 1. Write code in JSX style (JavaScript Xml)
 2. Babel is a Javascript compiler converts JSX into plain Javascript code
 >https://babeljs.io/
+
+
+Terminal:
+-------------------------------------------------------
+
+> Open terminal (Ctrl+`)
+> npm install bootstrap@4.1.1
+
 
 
 
