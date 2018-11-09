@@ -5,6 +5,7 @@ Getting started with NodeJS and Create-React-App setup
 
 2. Open command prompt and install create-react-app
 >npm install -g create-react-app
+(Development Server, Webpack, Babel and few other things will be configured)
 
 3. Go to your own folder and run create-react-app to create the react application for you
 >create-react-app first-react
@@ -14,3 +15,38 @@ Getting started with NodeJS and Create-React-App setup
 
 5. Start npm
 > npm start
+
+6. Unique ID
+> npm install --save uuid
+
+7. JQuery
+> npm install jquery --save
+
+
+
+Extensions:
+-------------------------------------------------------
+
+1. Simple React Snippets
+
+
+
+Visual Studio Code:
+-------------------------------------------------------
+1. Configuring Workspace Settings
+> File -> Preferences -> Settings
+> Search for the setting in Default Settings
+> Modify the value and that will appear on the User Settings tab
+> Hit Save
+
+
+
+How it works
+-------------------------------------------------------
+
+1. Write code in JSX style (JavaScript Xml)
+2. Babel is a Javascript compiler converts JSX into plain Javascript code
+>https://babeljs.io/
+
+
+
