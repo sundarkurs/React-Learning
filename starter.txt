@@ -23,12 +23,19 @@ Getting started with NodeJS and Create-React-App setup
 > npm install jquery --save
 
 
+How it works (ReactJS)
+-------------------------------------------------------
 
-Extensions:
+1. Write code in JSX style (JavaScript Xml)
+2. Babel is a Javascript compiler converts JSX into plain Javascript code
+>https://babeljs.io/
+
+VS Code Extensions:
 -------------------------------------------------------
 
 1. Simple React Snippets
-
+2. Auto Close Tag
+3. Prettier - Code formatter
 
 
 Visual Studio Code:
@@ -44,12 +51,7 @@ Visual Studio Code:
 
 
 
-How it works
--------------------------------------------------------
 
-1. Write code in JSX style (JavaScript Xml)
-2. Babel is a Javascript compiler converts JSX into plain Javascript code
->https://babeljs.io/
 
 
 Terminal:
