@@ -36,10 +36,17 @@ class Counter extends Component {
     );
   }
 
+  getSectionClass() {
+    if (this.props.objCounter.value > 0) {
+      return "alert alert-success ";
+    }
+    return "alert alert-info ";
+  }
+
   render() {
     console.log(this.props);
     return (
-      <div>
+      <div className={this.getSectionClass()}>
         <h4 className="bg-info">Counter {this.props.objCounter.id}</h4>
         {this.props.children}
         <span style={this.styles} className={this.getBadgeClasses()}>
