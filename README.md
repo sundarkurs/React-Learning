@@ -41,3 +41,12 @@ The above command installs/configures Development Server, Webpack, Babel, and fe
 
 2. Multi fragment editing
 > Select and Hit Ctrl D
+
+## Redux
+
+Install redux and react-redux. react-redux is another library to connect redux and react.
+
+>npm i redux react-redux react-thunk
+
+https://redux.js.org/basics/actions
+https://daveceddia.com/how-does-redux-work/
