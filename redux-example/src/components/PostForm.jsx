@@ -5,6 +5,7 @@ import { createPost } from "../actions/postActions";
 
 class PostForm extends Component {
   constructor(props) {
+    console.log("Post form", props);
     super(props);
     this.state = {
       title: "",

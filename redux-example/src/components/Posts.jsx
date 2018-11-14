@@ -5,10 +5,12 @@ import { fetchPosts } from "../actions/postActions";
 
 class Posts extends Component {
   componentWillMount() {
+    console.log("will mount", this.props);
     this.props.fetchPosts();
   }
 
   componentWillReceiveProps(nextProps) {
+    console.log("will receive props", nextProps);
     if (nextProps.newPost) {
       this.props.posts.unshift(nextProps.newPost);
     }
@@ -36,12 +38,12 @@ Posts.propTypes = {
   newPost: PropTypes.object
 };
 
-const mapStateToProps = state => ({
-  posts: state.posts.items,
-  newPost: state.posts.item
+const mapReduxStateToComponentProps = reduxState => ({
+  posts: reduxState.postsData.items,
+  newPost: reduxState.postsData.item
 });
 
 export default connect(
-  mapStateToProps,
+  mapReduxStateToComponentProps,
   { fetchPosts }
 )(Posts);

@@ -65,4 +65,6 @@ Redux
 -------------------------------------------------------
 >npm i redux react-redux react-thunk
 
+https://redux.js.org/basics/actions
+
 
