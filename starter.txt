@@ -42,7 +42,7 @@ Visual Studio Code:
 -------------------------------------------------------
 1. Configuring Workspace Settings
 > File -> Preferences -> Settings
-> Search for the setting in Default Settings
+> Search for the setting in Default Settings (formatOnSave)
 > Modify the value and that will appear on the User Settings tab
 > Hit Save
 
